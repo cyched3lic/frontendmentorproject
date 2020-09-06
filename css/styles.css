@@ -1,0 +1,23 @@
+body {
+    background-color: #e6eff6;
+    font-family: Karla;
+}
+
+.grid-container {
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    margin: 20% auto;
+}
+
+.grid-1 {
+    grid-column: 1 / span 2;
+    text-align: center;
+}
+
+.grid-2 {
+    background-color: #2bb3b1;
+}
+
+.grid-3 {
+    background-color: #4abebd;
+}
